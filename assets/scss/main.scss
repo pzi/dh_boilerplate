@@ -1,5 +1,5 @@
 // Bourbon
-@import "bourbon";
+@import "../bower_components/bourbon/dist/bourbon";
 
 // My Stuff
 @import "partials/settings";
@@ -7,7 +7,8 @@
 @import "partials/mixins";
 
 // Base
-@import "base/normalize";
+@import "../bower_components/sass-meyer-reset/sass-meyer-reset";
+@import "../bower_components/normalize.css/normalize";
 @import "base/base";
 @import "base/form";
 
@@ -21,7 +22,4 @@
 @import "layout/home";
 
 // Modules
-@import "modules/animations";
-@import "modules/buttons";
-@import "modules/video";
-@import "modules/img";
+@import "modules/**/*";

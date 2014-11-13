@@ -1,3 +1,5 @@
+// @codekit-prepend "../bower_components/jquery/dist/jquery.js"
+
 // Remove NavBar from iOS
 if( !window.location.hash && window.addEventListener ){
   window.addEventListener( "load",function() {
