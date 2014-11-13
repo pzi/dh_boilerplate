@@ -10,3 +10,8 @@ dh_boilerplate
 ## JS
 - Modernizr
 - jQuery 2.1.1
+
+## Spin up
+```bash
+bower install
+```
