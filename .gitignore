@@ -32,5 +32,6 @@ Thumbs.db
 
 # Ignore project specifics #
 bower_components/
+*.css
 dist
 .tmp

@@ -8,6 +8,7 @@
   "description": "My personal boilerplate",
   "main": "assets/css/main.css",
   "license": "MIT",
+  "private": true,
   "ignore": [
     "**/.*",
     "node_modules",
@@ -17,6 +18,9 @@
   ],
   "dependencies": {
     "jquery": "~2.1.1",
-    "bourbon": "~4.0.2"
+    "bourbon": "~4.0.2",
+    "normalize.css": "~3.0.2",
+    "sass-meyer-reset": "*",
+    "modernizr": "~2.8.3"
   }
 }
