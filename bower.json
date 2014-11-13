@@ -1,0 +1,22 @@
+{
+  "name": "dh-boilerplate",
+  "version": "0.1",
+  "homepage": "https://github.com/davidhellmann/dh_boilerplate",
+  "authors": [
+    "David Hellmann <dhellmann@fork.de>"
+  ],
+  "description": "My personal boilerplate",
+  "main": "assets/css/main.css",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "bourbon": "~4.0.2"
+  }
+}
